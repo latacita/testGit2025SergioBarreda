@@ -37,3 +37,11 @@
 (23)	add bitácora.txt
 	add dirección.txt
 	commit -m "Paso23"
+(24)	checkout master
+(25)	---				Sería por fast-forward, puesto que main no avanzó.
+(26)	merge RamaD			fast-forward
+(27)	merge RamaC			recursivo
+(28)	tag Conseguido
+	push origin Conseguido
+(29)	add bitácora.txt
+	commit -m "Paso29"
