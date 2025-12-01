@@ -23,3 +23,17 @@
 (14)	git merge RamaB			fast-forward
 (15)	git add bitácora.txt
 	git commit -m "Paso15"
+(16)	checkout master
+	Branch	RamaC
+(17)	checkout RamaC
+(18)	---
+(19)	Branch RamaD			No existe una RamaD en el remoto
+	push origin RamaD
+	checkout RamaD
+(20)	touch calificación.txt		No existe el fichero, lo creo
+(21)	add calificación.txt
+	commit -m "Paso21"
+(22)	checkout RamaC
+(23)	add bitácora.txt
+	add dirección.txt
+	commit -m "Paso23"
