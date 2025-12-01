@@ -45,3 +45,8 @@
 	push origin Conseguido
 (29)	add bitácora.txt
 	commit -m "Paso29"
+(30)	push origin master		Aparece un error porque hay archivos en el repositorio remoto que yo no tengo. Lo soluciono haciendo primero git pull y después haciendo el push.
+	add bitácora.txt
+	commit -m "Paso30"
+	pull
+	push origin master
