@@ -1,6 +1,7 @@
 Centro: Facultad de Ciencias
 Calle: Avenida de los Castros
 Número:
-CP: 
+CP: 39007
+CP2: 39011
 Ciudad: Santander
 Provincia: Cantabria
