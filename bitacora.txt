@@ -1,7 +1,7 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Barreda Menocal, Sergio):                                      %%
+%% Alumno (Barreda Menocal, Sergio):                                %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
@@ -48,5 +48,6 @@
 (30)	push origin master		Aparece un error porque hay archivos en el repositorio remoto que yo no tengo. Lo soluciono haciendo primero git pull y después haciendo el push.
 	add bitácora.txt
 	commit -m "Paso30"
-	pull
+	pull				Aparecen conflictos, los resuelvo.
+	commit -m "Conflictos resueltos"
 	push origin master
