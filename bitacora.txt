@@ -6,3 +6,15 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(03)	git add bitácora.txt
+	git commit -m "Paso03"
+(04)	git Branch RamaA
+(05)	git branch RamaB
+(06)	git checkout RamaA
+(07)	---
+(08)	---
+(09)	git checkout RamaB
+(10)	---
+(11)	git add dirección.txt
+	git add bitácora.txt
+	git commit -m "Paso11"
